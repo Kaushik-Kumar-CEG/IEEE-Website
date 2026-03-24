@@ -16,7 +16,7 @@ const events = [
       empoweringinnovation,
       empoweringinnovation
     ],
-    desc: 'It highlighted membership benefits like networking on IEEE Collabratec, professional publication access, and career enhancement opportunities.The session also detailed student resources including volunteering roles, project funding, travel grants, technical competitions, and scholarships.',
+    desc: 'The webinar took place on January 25, 2025.It highlighted membership benefits like networking on IEEE Collabratec, professional publication access, and career enhancement opportunities.The session also detailed student resources including volunteering roles, project funding, travel grants, technical competitions, and scholarships.',
   },
   {
     title: 'IEEE & Your Tech Journey: Unlocking Opportunities in Computing & Beyond',
@@ -25,7 +25,7 @@ const events = [
       ieeejourney,
       ieeejourney
     ],
-    desc: '',
+    desc: 'The session took place on February 18, 2025. The event featured a talk by Mr. Aravindhan Anbazhagan, Founder of Educelerator and IEEE ProComm Board of Governor. He shared personal experiences and detailed how IEEE membership offers exclusive access to journals, scholarships, and global networking',
   },
   {
     title: 'WEBINAR ON “Neurons in Silicon"',
@@ -34,7 +34,7 @@ const events = [
       neurons_in_silicon,
       neurons_in_silicon
     ],
-    desc: 'A full-stack web development bootcamp spanning two weekends. Attendees learned React, Node.js, and MongoDB while building a complete project from scratch with guided mentorship.',
+    desc: 'This webinar took place on April 10, 2025. It explores the intersection of neuroscience and technology, focusing on how biological principles inspire modern computing. Dr. Subhathirai S. P., an Assistant Professor at VIT Vellore, served as the guest speaker for this session. The presentation covered topics such as synaptic transmission, neuromorphic engineering, and silicon-based neuron circuits designed to mimic brain efficiency.',
   },
   {
     title: 'NEONOVA - AU IEEE Computer Society’s Ideathon',
@@ -43,7 +43,7 @@ const events = [
       neonova_25,
       neonova_25
     ],
-    desc: 'Industry experts from leading cloud providers shared insights on modern cloud architectures, serverless computing, and best practices for deploying scalable applications on AWS, Azure, and GCP.',
+    desc: 'NEONOVA was held on March 22, 2025. The event aimed to foster innovation and problem-solving among students. Participants presented impactful solutions to real-world challenges across diverse domains, including healthcare, sustainability, and cybersecurity. Evaluated by industry alumni, teams were judged on innovation, feasibility, and the real-world relevance of their proposed approaches. The ideathon concluded with an impromptu round focused on bridging the gap between academia and industry employability',
   },
   {
     title: 'CodeSprint – “Think Fast. Code Faster.”',
@@ -52,7 +52,7 @@ const events = [
       codesprint2,
       codesprint1
     ],
-    desc: 'A competitive Capture The Flag cybersecurity event with 50+ teams battling through challenges in cryptography, reverse engineering, web exploitation, and forensics.',
+    desc: 'CodeSprint was a high-energy virtual coding contest held on August 23, 2025. The event aimed to challenge students problem-solving skills under pressure. Participants competed individually on the HackerRank platform to efficiently solve various algorithmic challenges. Strict rules were enforced to ensure integrity, including a prohibition on using AI tools or external assistance. The top performers earned IEEE Computer Society memberships and qualified for the international IEEE Xtreme Coding Contest.',
   },
   {
     title: 'Webinar on “Unveiling Blockchain: Its Purpose and Applications”',
@@ -61,7 +61,7 @@ const events = [
       blockchain_webinar,
       blockchain_webinar,
     ],
-    desc: 'A collaborative event where students contributed to real open-source projects under the guidance of experienced mentors. Over 100 pull requests were submitted across multiple repositories.',
+    desc: 'The webinar was held on March 14, 2025. The featured speaker was Dr. Bhalaji N, a Senior Consultant at IITM Pravartak Technology Foundation, who provided expert insights into the technology\'s evolution. His presentation explored the progression from Web 1.0 to Web 3.0, the history of blockchain, and technical components like the SHA256 hashing algorithm. To provide practical understanding, the session included a live demonstration of blockchain in action followed by an interactive Q&A.',
   },
 ];
 
