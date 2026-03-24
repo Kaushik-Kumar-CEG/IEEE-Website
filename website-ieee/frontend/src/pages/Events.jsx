@@ -1,7 +1,7 @@
 import { useRef, useEffect } from 'react';
 import { gsap } from 'gsap';
-import currentevent1 from '../assets/Level-up-ITRIX.png';
-
+import currentevent1 from '../assets/upcoming-events/Level-up-ITRIX.png';
+import currentevent2 from '../assets/upcoming-events/paper-presentation-placeholder.jpeg';
 const Events = () => {
     const containerRef = useRef(null);
 
@@ -33,7 +33,8 @@ const Events = () => {
             type: "Presentation",
             date: "Nov 12, 2024",
             location: "CS Lab 3",
-            description: "A technical paper presentation event that provides a platform for students to present innovative ideas, research findings, and advancements in emerging technologies."
+            description: "A technical paper presentation event that provides a platform for students to present innovative ideas, research findings, and advancements in emerging technologies.",
+            imgloc: currentevent2
         }
     ];
 

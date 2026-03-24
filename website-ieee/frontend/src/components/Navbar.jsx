@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import ieeeLogoWhite from '../assets/IEEE-logo-white.jpeg';
+import ieeeLogoWhite from '../assets/IEEE-logo-white-transparent.png';
 import ieeeLogoBlack from '../assets/IEEE-logo-black.jpeg';
 
 const Navbar = () => {
