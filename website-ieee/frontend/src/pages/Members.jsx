@@ -23,6 +23,9 @@ import aadhi from "../assets/aadhi.png";
 import chandini from "../assets/chandini.png";
 import abhinav from "../assets/abhinav.png";
 import siva from "../assets/siva sanjay.jpeg";
+import swayam from "../assets/swayam.png";
+import sheik from "../assets/sheik.png";
+
 
 
 /* ── Data ───────────────────────────────────────────── */
@@ -39,7 +42,7 @@ const teams = [
     accent: "from-ieee-orange to-amber-500",
     members: [
       { name: "Ojaskrisshnan", role: "Chairperson", img: ojas },
-      { name: "Member 2", role: "Vice Chair", img: "" },
+      { name: "Swayamprabha", role: "Vice Chair", img: swayam },
       { name: "Shreem Seth", role: "Secretary", img: shreem },
       { name: "Hemananth R", role: "Treasurer", img: hemanth },
       { name: "Shaan", role: "Joint Secretary", img: shaan },
@@ -83,7 +86,7 @@ const teams = [
     members: [
       { name: "Aadhisesha D", role: "Head", img: aadhi },
       { name: "Chandini", role: "Jr Head", img: chandini },
-      { name: "Muhammed Sheik", role: "Jr Head", img: "" },
+      { name: "Muhammed Sheik", role: "Jr Head", img: sheik },
     ],
   },
   {
