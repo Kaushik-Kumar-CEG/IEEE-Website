@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { gsap } from 'gsap';
-import empoweringinnovation from '../assets/prev-events/empowering_innovation_through_ieee.png';
+import empoweringinnovation from '../assets/prev-events/Empowering_Innovation_Through_IEEE.png';
 import ieeejourney from '../assets/prev-events/IEEE&Your_Journey.png';
 import neurons_in_silicon from '../assets/prev-events/neurons-in-silicon.png';
 import neonova_25 from '../assets/prev-events/neonova_2025.png';

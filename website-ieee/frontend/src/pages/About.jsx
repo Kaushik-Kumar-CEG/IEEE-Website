@@ -10,8 +10,8 @@ const About = () => {
     }, []);
 
     return (
-        <div className="min-h-[calc(100vh-80px)] flex items-center justify-center bg-ieee-warm-white dark:bg-ieee-dark transition-colors duration-300">
-            <div className="max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8" ref={containerRef}>
+        <div className="min-h-screen bg-ieee-warm-white dark:bg-ieee-dark transition-colors duration-300">
+            <div className="max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-24" ref={containerRef}>
                 <h1 className="text-4xl font-bold text-ieee-orange mb-8 text-center">About Us</h1>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
                     <div className="overflow-hidden rounded-2xl shadow-md">

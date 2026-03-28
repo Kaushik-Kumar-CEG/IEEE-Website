@@ -52,8 +52,8 @@ const teams = [
     label: "Tech",
     accent: "from-blue-500 to-cyan-400",
     members: [
-      { name: "Kaushik Kumar", role: "Tech Lead", img: kaushik },
-      { name: "Naraen", role: "Jr Head", img: naraen },
+      { name: "Kaushik Kumar", role: "Head", img: kaushik },
+      { name: "Naraen Rammoorthi", role: "Jr Head", img: naraen },
       { name: "Lokesh Selvam", role: "Jr Head", img: lokesh },
       { name: "Akshaya K", role: "Member", img: akshaya },
       { name: "Saran Kumar", role: "Member", img: saran },
@@ -65,10 +65,10 @@ const teams = [
     accent: "from-pink-500 to-rose-400",
     members: [
       { name: "Amitha", role: "Head", img: amitha },
-      { name: "Kaaviya", role: "Head", img: kaaviya},
+      { name: "Kaaviya", role: "Head", img: kaaviya },
       { name: "Preethi", role: "Jr Head", img: preethi },
-      { name: "NimithaShree", role: "Jr Head", img: nimitha},
-      { name: "Varshini", role: "Jr Head", img: varshini},
+      { name: "NimithaShree", role: "Jr Head", img: nimitha },
+      { name: "Varshini", role: "Jr Head", img: varshini },
     ],
   },
   {
@@ -216,11 +216,10 @@ const Members = () => {
             <button
               key={team.label}
               onClick={() => setActiveTab(idx)}
-              className={`px-5 py-2.5 rounded-full text-sm font-bold tracking-wide transition-all duration-300 cursor-pointer border-2 ${
-                activeTab === idx
-                  ? "bg-ieee-orange text-white border-transparent shadow-lg scale-105"
-                  : "bg-white dark:bg-ieee-dark-card text-gray-600 dark:text-gray-300 border-gray-200 dark:border-gray-700 hover:border-ieee-orange hover:text-ieee-orange dark:hover:border-ieee-orange dark:hover:text-ieee-orange"
-              }`}
+              className={`px-5 py-2.5 rounded-full text-sm font-bold tracking-wide transition-all duration-300 cursor-pointer border-2 ${activeTab === idx
+                ? "bg-ieee-orange text-white border-transparent shadow-lg scale-105"
+                : "bg-white dark:bg-ieee-dark-card text-gray-600 dark:text-gray-300 border-gray-200 dark:border-gray-700 hover:border-ieee-orange hover:text-ieee-orange dark:hover:border-ieee-orange dark:hover:text-ieee-orange"
+                }`}
             >
               {team.label}
             </button>
