@@ -87,9 +87,9 @@ if (typeof document !== 'undefined' && !document.getElementById('circuit-style')
 }
 
 const STATS = [
-    { label: 'Active Members', value: 40, suffix: '+', code: 'MBR_COUNT', icon: '◈' },
+    { label: 'Active Members', value: 25, suffix: '+', code: 'MBR_COUNT', icon: '◈' },
     { label: 'Yearly Events',  value: 10, suffix: '+', code: 'EVT_ANNUAL', icon: '◉' },
-    { label: 'Projects Done',  value: 10, suffix: '+', code: 'PRJ_TOTAL',  icon: '◆' },
+    { label: 'Conferences Held', value: 7, suffix: '+', code: 'CONF_HELD', icon: '◆' },
     { label: 'Years Strong',   value: 2,  suffix: '',  code: 'YRS_ACTIVE', icon: '▲' },
 ];
 
